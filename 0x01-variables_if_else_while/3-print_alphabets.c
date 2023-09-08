@@ -1,23 +1,20 @@
 #include <stdio.h>
 /**
- *main - entry point
- *
- *Return: Always 0 (successful)
- *
- *Description: prints the alphabet in uppercase and lowercase
+ *main - Start
+ *Return: zero
  */
 int main(void)
 {
-	int Sletter, Cletter, n;
+	char c;
 
-	for (Sletter = 97, n = 1; n < 27; Sletter++, n++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar(Sletter);
+		putchar(c);
 	}
-	for (Cletter = 65, n = 1; n < 27; Cletter++, n++)
+	for (c = 'A'; c <= 'Z'; c++)
 	{
-		putchar(Cletter);
+		putchar(c);
 	}
-	putchar(10);
+	putchar('\n');
 	return (0);
 }
