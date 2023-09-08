@@ -3,14 +3,14 @@
  *main - Debut
  *Return: zero 
  */
+
 int main(void)
 {
-	int letter, n;
+    char c;
 
-	for (letter = 97, n = 1 ; n < 27; letter++, n++)
-	{
-		putchar(letter);
-	}
-	putchar("\n");
-	return (0);
+    for (c = 'a'; c <= 'z'; c++)
+        putchar(c);
+    putchar('\n');
+
+    return (0);
 }
