@@ -7,6 +7,7 @@
  *print_alphabet - Entry point
  *Description : the function prints the alphabet in lowercase
  */
+
 void print_alphabet(void)
 {
 	int i;
