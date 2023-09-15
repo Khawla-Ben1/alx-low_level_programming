@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+ * main - start
  * _isdigit - input
  *
  * Description: check if a character is a number
