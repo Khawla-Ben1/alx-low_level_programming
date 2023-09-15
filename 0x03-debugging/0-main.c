@@ -1,11 +1,10 @@
 #include"main.h"
-
 /**
- *main - start
- *Return: always 0
+ * main - start
+ * Return: 0
  */
 
-int main()
+int main(void)
 {
 	int i;
 
