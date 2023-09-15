@@ -2,7 +2,7 @@
 
 /**
  * mul - entry point
- *
+ *@c: tested character
  * Description: doing the multipulation
  *
  * Return: void
