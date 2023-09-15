@@ -2,7 +2,8 @@
 
 /**
  * mul - entry point
- *@c: tested character
+ *@a: tested character
+ *@b: tested character
  * Description: doing the multipulation
  *
  * Return: void
