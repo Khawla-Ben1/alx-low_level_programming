@@ -1,8 +1,13 @@
 #include "main.h"
 
+
+
 /**
- * mul - input
- * Return: the answer
+ * mul - entry point
+ *
+ * Description: mul
+ *
+ * Return: void
  */
 
 int mul(int a, int b)
