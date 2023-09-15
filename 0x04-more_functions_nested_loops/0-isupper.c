@@ -2,10 +2,10 @@
 
 /**
  * main - start
- * _isupper - define if a character is uppercase
+ *  _isupper - define if a character is uppercase
  *
  * Description: checks for uppercase character.
- * Return: 1 yes 0 no
+ * Return: 0
  */
 
 int _isupper(int c)
