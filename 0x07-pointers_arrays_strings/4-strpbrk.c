@@ -4,8 +4,7 @@
 *@s: string where search is made
 *@accept: string where searched bytes are located
 *
-*Return:Returns a pointer to the byte in s that matches
-* one of the bytes in accept, or NULL if no such byte is found
+*Return:Returns a pointer
 */
 
 char *_strpbrk(char *s, char *accept)
