@@ -3,7 +3,6 @@
 *_strspn - get length of a prefix substring
 *@accept:reference bytes container
 *@s: string
-*
 *Return:returns the number of bytes 
 */
 unsigned int _strspn(char *s, char *accept)
