@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*_strchr - 
+*_strchr - locate character in string
 *@s:string targeted
 *@c:character targeted
 *

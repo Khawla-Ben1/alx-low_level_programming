@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*_strspn - 
+*_strspn - get length of a prefix substring
 *@accept:reference bytes container
 *
 *Return:returns the number of bytes 

@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*print_diagsums - 
+*print_diagsums - print_diagsums
 *@a:matrix to be summed
 *@size:size of the matrix
 */
