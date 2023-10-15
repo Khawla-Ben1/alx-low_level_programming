@@ -5,7 +5,6 @@
 *@d: dog identification
 *
 */
-
 void print_dog(struct dog *d)
 {
 	if (d == NULL )

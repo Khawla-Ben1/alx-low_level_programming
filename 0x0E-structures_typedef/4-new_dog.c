@@ -1,6 +1,5 @@
 #include "dog.h"
 
-
 /**
 *_strlen - returns length of a string
 *@str: string to be counted
@@ -22,7 +21,6 @@ int _strlen(char *str)
 *@src: buffer storing string to copy
 *Return:returns copied string
 */
-
 char *_strcopy(char *dest, char *src)
 {
 	int index = 0;
