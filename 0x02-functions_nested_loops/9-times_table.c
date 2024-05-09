@@ -1,4 +1,26 @@
 #include "main.h"
+/**
+ *skeleton - reused to produce a comma and space(s) between
+ *each number in the times table.
+ *@n: the parameter n keeps track of when to put commas, spaces and the number
+ */
+void skeleton(int n)
+{
+	if (n <= 9)
+	{
+		_putchar(',');
+		_putchar(' ');
+		_putchar(' ');
+		_putchar(n + '0');
+	}
+	else
+	{
+		_putchar(',');
+		_putchar(' ');
+		_putchar(n / 10 + '0');
+		_putchar(n % 10 + '0');
+	}
+}
 
 /**
  *times_table - printing the 9 times table starting with 0
@@ -25,28 +47,5 @@ void times_table(void)
 		}
 		l++;
 		_putchar('\n');
-	}
-}
-
-/**
- *skeleton - reused to produce a comma and space(s) between
- *each number in the times table.
- *@n: the parameter n keeps track of when to put commas, spaces and the number
- */
-void skeleton(int n)
-{
-	if (n <= 9)
-	{
-		_putchar(',');
-		_putchar(' ');
-		_putchar(' ');
-		_putchar(n + '0');
-	}
-	else
-	{
-		_putchar(',');
-		_putchar(' ');
-		_putchar(n / 10 + '0');
-		_putchar(n % 10 + '0');
 	}
 }
