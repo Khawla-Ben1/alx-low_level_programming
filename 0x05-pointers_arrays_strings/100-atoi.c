@@ -1,24 +1,24 @@
 
-int	_atoi(char *s)
+int	_atoi(const char *s)
 {
 	int			i;
-	int			s;
+	int			a;
 	int         n;
 
 	i = 0;
-	s = 1;
+	a = 1;
 	n = 0;
-	while ((str[i] >= 9 && str[i] <= 13) || (str[i] == 32 && str[i]))
+	while ((s[i] >= 9 && s[i] <= 13) || (s[i] == 32 && s[i]))
 		i++;
-	if ((str[i] == '-' || str[i] == '+'))
+	if ((s[i] == '-' || s[i] == '+'))
 	{
-		if (str[i] == '-')
-			s = -s;
+		if (s[i] == '-')
+			a = -a;
 		i++;
 	}
-	while (str[i] && str[i] >= '0' && str[i] <= '9')
+	while (s[i] && s[i] >= '0' && s[i] <= '9')
 	{
-		n = (n * 10 + (str[i++] - 48));
+		n = (n * 10 + (s[i++] - 48));
 	}
-	return (s * n);
+	return (a * n);
 }
