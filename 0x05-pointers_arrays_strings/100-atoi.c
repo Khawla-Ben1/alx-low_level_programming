@@ -1,3 +1,10 @@
+#include "main.h"
+
+/**
+*_atoi - Entry point
+*@s: pointer to the string
+*Return: no return
+*/
 
 int	_atoi(const char *s)
 {
