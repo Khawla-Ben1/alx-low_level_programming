@@ -3,7 +3,7 @@
  *print_number - prints an integer.
  *only using the putchar function.
  *noarrays and pointers.
- *@n: integer 
+ *@n: integer
  *
  *Return: nothing
  */
