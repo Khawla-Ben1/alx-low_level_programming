@@ -7,7 +7,7 @@
 /**
  * struct printer - struct
  * @symbol: symbol
- * @va_list_arg: va_list
+ * @print: va_list
  *
  * Description: printer structure
  */
@@ -16,7 +16,7 @@ typedef struct printer
 {
 	char *symbol;
 	void (*print)(va_list arg);
-}	printer_t;
+}printer_t;
 
 
 int sum_them_all(const unsigned int n, ...);
