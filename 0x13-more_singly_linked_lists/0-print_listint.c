@@ -4,8 +4,6 @@
 /**
  * print_listint - prints all the elements
  * @h: head of the list
- *
- * 
  * Return: the number of nodes
  */
 
