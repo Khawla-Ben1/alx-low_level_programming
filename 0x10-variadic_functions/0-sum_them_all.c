@@ -5,8 +5,7 @@
 *sum_them_all - sums all the parameters
 *@n: first parameter
 *
-*Return: 0 if n is null
-* or sum of parameters in other case
+*Return: 0 if n is null or sum
 */
 
 int sum_them_all(const unsigned int n, ...)
