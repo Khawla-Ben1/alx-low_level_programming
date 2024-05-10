@@ -2,10 +2,10 @@
 
 
 /**
- *main - start
- *Return: always 0
  *print_alphabet - Entry point
  *Description : the function prints the alphabet in lowercase
+ *main - start
+ *Return: always 0
  */
 
 void print_alphabet(void)
