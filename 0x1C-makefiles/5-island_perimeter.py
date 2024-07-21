@@ -13,16 +13,16 @@ def island_perimeter(grid):
     rows = len(grid)
     cols = len(grid[0]) if rows > 0 else 0
 
-    # Directions for up, down, left, right movements
     directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
 
     for i in range(rows):
         for j in range(cols):
             if grid[i][j] == 1:
-                # Check all 4 directions
                 for di, dj in directions:
                     ni, nj = i + di, j + dj
-                    if ni < 0 or ni >= rows or nj < 0 or nj >= cols or grid[ni][nj] == 0:
+                    if (ni < 0 or ni >= rows or
+                        nj < 0 or nj >= cols or 
+                        grid[ni][nj] == 0):
                         perimeter += 1
 
     return perimeter
