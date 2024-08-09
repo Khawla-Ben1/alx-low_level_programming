@@ -1,11 +1,7 @@
 #include <stdio.h>
 
 // Mock the function that would validate the lottery numbers.
-// Here we will fake the match for demonstration purposes.
-int main(int argc, char *argv[]) {
-    if (argc == 6) {
-        printf("You won the jackpot!\n");
-        return 0;
-    }
-    return 1;
+// This should match the signature of the actual function used in `gm`.
+int check_lottery_numbers(int a, int b, int c, int d, int e, int bonus) {
+    return 1; // Indicate that the numbers always win
 }
