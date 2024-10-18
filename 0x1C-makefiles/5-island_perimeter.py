@@ -20,8 +20,8 @@ def island_perimeter(grid):
             if grid[i][j] == 1:
                 for di, dj in directions:
                     ni, nj = i + di, j + dj
-                    if (ni < 0 or ni >= rows
-                        or nj < 0 or nj >= cols or grid[ni][nj] == 0):
+                    if (ni < 0 or ni >= rows or
+                    nj < 0 or nj >= cols or grid[ni][nj] == 0):
                         perimeter += 1
 
     return perimeter
